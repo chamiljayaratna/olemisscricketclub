@@ -9,7 +9,7 @@ html {
 
 }
 .navbar .navbar-brand{
-    float: left;
+    float: center;
     color: green;
     font-size: 25px;
     font-style: italic;
@@ -27,6 +27,8 @@ html {
   margin: 5px 5px;
   padding: 6px 10px;
   line-height: 1;
+  display: inline-block;
+  list-style-type: none;
 }
 
 #navbar ul li a:hover{
